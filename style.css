@@ -1,0 +1,68 @@
+/* i added the margins to make sizing easier to control */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(78, 54, 173);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500;
+  font: bolder;
+  text-align: center;
+  color: #bbb480;
+  margin: 0 auto;
+}
+
+.container {
+  width: 100%;
+  padding: 4rem;
+}
+
+.labels {
+  color: #03ff29;
+  font-size: 6vw;
+}
+
+#go {
+  margin-top: 4rem;
+  font-family: fantasy;
+  background-color: greenyellow;
+  border: 0;
+  width: 80%;
+  height: 5rem;
+  font-size: 2rem;
+  border-radius: 0.5em;
+}
+
+/* added height styling to make input boxes look bigger and better */
+.inputs {
+  background-color: #fff;
+  width: 80%;
+  height: 50px;
+  border-radius: 0.5em;
+  font-size: 3rem;
+  text-align: center;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+#output {
+  font-size: 9vw;
+  margin-top: 3rem;
+}
+/* app name at the top */
+.app-title {
+  font-size: 50px;
+  color: chartreuse;
+}
